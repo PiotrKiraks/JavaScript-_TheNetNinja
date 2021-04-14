@@ -1,21 +1,13 @@
-for ( i = 0; i <10; i++){
+function getAverage (a,b){
 
+    var average = (a+b)/2;
 
-    if(i === 5 || i ===3){
-
-        continue;
-    }
-
-    console.log(i);
-
-    if(i === 7){
-
-
-        break;
-    }
+    console.log (average);
+    return average
 }
 
-
+var myResult = getAverage(7,12);
+console.log("the average is "+ myResult);
 
 
 
