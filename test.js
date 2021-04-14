@@ -1,18 +1,11 @@
-function getAverage (a,b){
+var a = "lol";
+var b = 5;
 
-    var average = (a+b)/2;
+if(isNaN(a)){
 
-    console.log (average);
-    return average
+    console.log("that aint even a number, thickie");
+
+}else {
+    console.log ("meaning of life is" + (a*b));
 }
 
-var myResult = getAverage(7,12);
-
-function logResult(){
-
-console.log("the average is "+ myResult);
-
-
-}
-
-logResult();
