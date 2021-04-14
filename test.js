@@ -7,9 +7,12 @@ function getAverage (a,b){
 }
 
 var myResult = getAverage(7,12);
+
+function logResult(){
+
 console.log("the average is "+ myResult);
 
 
+}
 
-
-
+logResult();
