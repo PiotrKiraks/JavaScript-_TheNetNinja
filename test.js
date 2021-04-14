@@ -1,11 +1,25 @@
-var a = "lol";
-var b = 5;
+var myArray = new Array();
+myArray[0] = 8;
+myArray[1] = "hello";
 
-if(isNaN(a)){
 
-    console.log("that aint even a number, thickie");
+var myCar= new Object();
+myCar.maxSpeed = 50;
+myCar.driver = "Piotr";
+myCar.drive =function(){ console.log("now driving");};
 
-}else {
-    console.log ("meaning of life is" + (a*b));
+myCar.drive();
+
+var myCar2= {
+
+maxSpeed: 70,
+driver: "Net Ninja",
+drive: function(speed, time){
+console.log(speed*time);
 }
+
+};
+
+console.log (myCar2.maxSpeed);
+myCar2.drive(50,3);
 
